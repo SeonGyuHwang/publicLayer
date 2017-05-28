@@ -1,8 +1,11 @@
 # publicLayer
 
-publicLayer.setSize( (Integer) Width, (Integer) Height, (Boolean) Resize default: TRUE );
-// publicLayer.setCss( (Object){} );
+publicLayer.setSize( (Integer) Width, (Integer) Height, (Boolean) IsResize default: TRUE );
+
 publicLayer.setHtml(String);
+
+// publicLayer.setCss( (Object){} );
+
 publicLayer.init(); // initzation
 
-publicLayer.reset() // destory
+publicLayer.destory() // destory

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>publicLayer Demo</title>
+<script type="text/javascript" src="js/publicLayer.js"></script>
+<script type="text/javascript">
+    function call(text) {
+        publicLayer.setSize('150', '150', false /** default : true **/ );
+        publicLayer.setHtml(text);
+        publicLayer.setCss({
+            'background-color': 'skyblue'
+        });
+        publicLayer.init();
+    }
+
+</script>
+</head>
+<body>
+<button onclick="call('test11')">call publicLayer</button>
+</body>
+</html>
