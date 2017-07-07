@@ -41,7 +41,7 @@
             },
             'setCss': function(options){
                 if( typeof options == "object" ) {
-                    console.log(options);
+                    //console.log(options);
                     $(this.o).css(options);
                 }
             },
